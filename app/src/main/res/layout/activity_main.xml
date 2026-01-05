@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/space1_photo"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="25dp"
+        android:fontFamily="@font/montserrat_semi_bold"
+        android:gravity="center"
+
+        android:maxLines="1"
+        android:text="You are welcome"
+        android:textColor="#E91E63"
+        android:textSize="38sp"
+
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:alpha="0"
+        android:background="@drawable/vector_2__1_"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="385dp"
+        android:layout_height="295dp"
+        android:layout_marginTop="55dp"
+        android:src="@drawable/qasdf1"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView2"
+        app:layout_constraintEnd_toEndOf="@+id/textView2"
+        app:layout_constraintStart_toStartOf="@+id/textView2"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/cons_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2">
+
+        <TextView
+
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:fontFamily="@font/montserrat_semi_bold"
+            android:gravity="center"
+            android:text="Let's Play!"
+            android:textColor="#FECF2A"
+            android:textSize="55sp"
+            app:layout_constraintBottom_toTopOf="@id/playgame_tv"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/textView"
+            app:layout_constraintTop_toTopOf="@+id/cons_1" />
+
+
+        <TextView
+            android:fontFamily="@font/montserrat_semi_bold"
+            android:id="@+id/playgame_tv"
+            android:layout_width="275dp"
+            android:layout_height="75dp"
+            android:layout_margin="16dp"
+            android:background="@drawable/start_bg"
+            android:gravity="center"
+            android:text="Play Now"
+            android:textColor="@color/white"
+            android:textSize="35sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@id/exitgame_tv"
+            app:layout_constraintEnd_toEndOf="@+id/textView"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+        <TextView
+            android:fontFamily="@font/montserrat_semi_bold"
+            android:id="@+id/exitgame_tv"
+            android:layout_width="275dp"
+            android:layout_height="75dp"
+            android:layout_margin="16dp"
+            android:background="@drawable/rectangle_6"
+            android:gravity="center"
+            android:text="Exit app"
+            android:textColor="@color/white"
+            android:textSize="35sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/playgame_tv"
+            app:layout_constraintStart_toStartOf="@+id/playgame_tv"
+            app:layout_constraintTop_toBottomOf="@+id/playgame_tv" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
