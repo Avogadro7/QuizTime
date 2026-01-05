@@ -44,10 +44,10 @@ An interactive quiz game about world capitals with a beautiful space-themed desi
 ## Screenshots
 
 <p align="center">
-  <img src="screenshots/Screenshot 2026-01-06 044302.png" width="200" alt="Welcome Screen" />
-  <img src="screenshots/Screenshot 2026-01-06 044320.png" width="200" alt="Quiz Question" />
-  <img src="screenshots/Screenshot 2026-01-06 044341.png" width="200" alt="Question Progress" />
-  <img src="screenshots/Screenshot 2026-01-06 044436.png" width="200" alt="Game Over" />
+  <img src="screensots/Screenshot 2026-01-06 044302.png" width="200" alt="Welcome Screen" />
+  <img src="screensots/Screenshot 2026-01-06 044320.png" width="200" alt="Quiz Question" />
+  <img src="screensots/Screenshot 2026-01-06 044341.png" width="200" alt="Question Progress" />
+  <img src="screensots/Screenshot 2026-01-06 044436.png" width="200" alt="Game Over" />
 </p>
 
 ## Game Rules
